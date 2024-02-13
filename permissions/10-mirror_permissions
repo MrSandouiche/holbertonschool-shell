@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -x apply_permissions.sh olleh hello
+chmod 354 hello
