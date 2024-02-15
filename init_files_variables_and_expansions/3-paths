@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l $PATH |grep '^d'| wc -l
+find $(echo $PATH | tr ':' ' ') -type d | wc -l
